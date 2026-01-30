@@ -1,4 +1,4 @@
-Day-2 My Linux task --> linux-architecture-notes.md
+Day 02 – Linux Architecture, Processes, and systemd
 
 Linux Architecture, Processes, and systemd
 
