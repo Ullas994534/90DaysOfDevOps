@@ -20,7 +20,7 @@ Follow these rules while creating your cheat sheet:
 
 Their are command command which we are using -> cd, ls, df -h, free -h, vim, cat, touch, mkdir, top, ping, ip addr, traceroute, ifconfig, curl, wget, ps, systemctl, grep, lsblk, uname -a, sed.
 
-📂 File & Directory Management
+** File & Directory Management **
 
 cd – Change directory
 
@@ -38,13 +38,13 @@ grep – Search text in files
 
 sed – Stream editor (find & replace, text manipulation)
 
-💾 Disk & Storage
+** Disk & Storage **
 
 df -h – Disk space usage
 
 lsblk – List block devices (disks & partitions)
 
-🧠 Memory & System Info
+** Memory & System Info **
 
 free -h – Memory usage
 
@@ -52,13 +52,13 @@ top – Real-time process & CPU usage
 
 uname -a – Kernel and system information
 
-⚙️ Process & Service Management
+** Process & Service Management **
 
 ps – Check running processes
 
 systemctl – Manage systemd services
 
-🌐 Networking
+** Networking **
 
 ip addr – Show IP addresses
 
@@ -72,11 +72,11 @@ curl – API calls & URL requests
 
 wget – Download files from the web
 
-🖥️ Performance & Monitoring
+** Performance & Monitoring ** 
 
 top – Monitor CPU, memory, and processes
 
-🔧 Why This Matters for DevOps
+** Why This Matters for DevOps **
 
 Most real production problems are fixed directly from the command line.
 
