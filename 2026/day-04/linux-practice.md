@@ -24,6 +24,7 @@ Follow these rules while creating your practice note.
 ## 1️⃣ Process Commands
 
 ### `ps`
+
 `ps` is used to check **process status**.
 
 It shows:
@@ -34,9 +35,10 @@ It shows:
 - Command that started the process
 
 **PID** → A unique ID assigned to each process.
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-48-07.png
 
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-54-17.png
+![Image](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-48-07.png)
+
+![Image](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-54-17.png)
 
 Example:
 ```bash
@@ -52,14 +54,14 @@ Shows CPU usage, memory usage, and load averages
 
 Allows interactive process management
 
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2021-00-38.png
+
 
 Example:
 
 bash
 Copy code
 top
-2️) Service Commands (systemd)
+2️⃣ Service Commands (systemd)
 systemctl
 Used to manage system services.
 
@@ -72,10 +74,13 @@ Check service status
 Enable or disable services at boot
 
 List running services
+
+
+
+List running services:
+
 bash
 Copy code
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2021-09-20.png
-
 systemctl list-units --type=service --state=running
 Breakdown:
 
@@ -86,9 +91,10 @@ list-units → Lists active units
 --type=service → Only services
 
 --state=running → Only running services
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2021-13-23.png
 
-3️) 2 Log Commands
+
+
+3️⃣ Log Commands
 journalctl
 Used to view system logs.
 
@@ -102,8 +108,9 @@ Applications
 
 Boot events
 
+
+
 Examples:
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/6.png
 
 bash
 Copy code
@@ -123,8 +130,9 @@ Memory
 
 Devices
 
+
+
 Examples:
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/7.png
 
 bash
 Copy code
@@ -136,36 +144,45 @@ I picked cron for service inspection.
 Cron is used for scheduling jobs.
 
 Service name by distro:
+
 Ubuntu/Debian → cron
+
 RHEL/CentOS → crond
-![Image link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/7.png
+
+
 
 Check if cron service exists
 bash
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/8.png
-
+Copy code
 systemctl list-unit-files | grep cron
-Check cron service status
 
+
+Check cron service status
+bash
+Copy code
 systemctl status cron
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/9.png
+
 
 Check if cron starts at boot
 bash
 Copy code
 systemctl is-enabled cron
 Inspect running cron process
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/10.png
-
+bash
+Copy code
 ps -ef | grep cron
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/11.png
+
+
+
+
 Check system-wide cron jobs
-
+bash
+Copy code
 cat /etc/crontab
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/12.png
-
 ls -l /etc/cron.*
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/13.png
+
+
+
 
 Inspect user cron jobs
 Current user:
@@ -173,22 +190,26 @@ Current user:
 bash
 Copy code
 crontab -l
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/14.png
+
 
 Root user:
 
+bash
+Copy code
 sudo crontab -u root -l
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/15.png
+
+
 If no jobs exist, you’ll see:
 
-pgsql
+text
 Copy code
 no crontab for user
-Check cron permissions (important!)
+Check cron permissions (Important!)
 bash
 Copy code
 ls -l /etc/cron.allow /etc/cron.deny
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/16.png
+
+
 Rules:
 
 If cron.allow exists → only listed users can use cron
@@ -201,10 +222,10 @@ Ubuntu:
 bash
 Copy code
 grep CRON /var/log/syslog
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/17.png
-
 journalctl -u cron
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/18.png
+
+
+
 
 Look for:
 
@@ -214,12 +235,12 @@ Command errors
 
 Permission issues
 
-Test cron is working: Quick test job (runs every minute)
-![Image Link]https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/19.png
+Test cron is working (Quick test)
+Run a test job every minute to confirm cron is working.
 
-Example: run a job every minute to confirm cron is working.
 
-Why Cron Inspection Matters (DevOps Angle)
+
+🚀 Why Cron Inspection Matters (DevOps Angle)
 Cron is widely used for:
 
 Backups
