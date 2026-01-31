@@ -222,4 +222,3 @@ You won’t have time to search for basic commands
 You must diagnose issues quickly
 
 This practice helps build muscle memory with Linux fundamentals.
-
