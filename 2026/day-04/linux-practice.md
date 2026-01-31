@@ -36,9 +36,9 @@ It shows:
 
 **PID** → A unique ID assigned to each process.
 
-![Image](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-48-07.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-48-07.png)
 
-![Image](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-54-17.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-04/images/Screenshot%20From%202026-01-31%2020-54-17.png)
 
 Example:
 ```bash
