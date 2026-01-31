@@ -1,67 +1,159 @@
-Day 02 – Linux Architecture, Processes, and systemd
+# Day 02 – Linux Architecture, Processes, and systemd
 
-Linux Architecture, Processes, and systemd
+## Linux Architecture, Processes, and systemd
 
-Today’s goal is to understand how Linux works under the hood.
+### 🎯 Today’s Goal
+Understand how Linux works **under the hood**.  
+This knowledge is the foundation for **troubleshooting, monitoring, and operating systems** as a DevOps engineer.
 
-You will create a short note that explains:
+You will learn:
+- Core components of Linux (Kernel, User Space, init/systemd)
+- How processes are created and managed
+- What systemd does and why it matters
 
-The core components of Linux (kernel, user space, init/systemd)
-How processes are created and managed
-What systemd does and why it matters
-This is the foundation for all troubleshooting you will do as a DevOps engineer.
+---
 
+## Linux Architecture Overview
 
-Basic linux fundamentals commands for devops.
+Linux is built using a layered architecture.
 
-1)top -> It used to check the system process and load average, Running process, stopped process,
-	       cpu and memory usage and zombie process etc.
-	       
-most 5 comman commands day to day we are using they are.
+### 1. Kernel
+- Core component of the operating system
+- Manages:
+  - CPU scheduling
+  - Memory management
+  - Disk and file systems
+  - Network communication
+  - Hardware interaction
+- Runs in **kernel space** with high privileges
 
-1) df -h
+### 2. User Space
+- Area where user applications run
+- Includes:
+  - Shells (bash, zsh)
+  - Linux utilities (ls, cp, mv)
+  - Applications (nginx, docker, databases)
+- Runs in **user space** with limited permissions
 
+### 3. Init System (systemd)
+- First process started by the kernel (**PID 1**)
+- Responsible for:
+  - Starting services
+  - Managing system boot
+  - Handling background processes
+  - Logging and service dependencies
+
+---
+
+## Process Management in Linux
+
+### What Is a Process?
+- A **process** is a running instance of a program
+- Each process has:
+  - PID (Process ID)
+  - Parent process
+  - CPU and memory allocation
+
+### How Processes Are Created
+1. User runs a command
+2. Shell sends request to the kernel
+3. Kernel creates the process
+4. Process is scheduled for execution
+
+### Process States
+- **Running** – actively executing
+- **Sleeping** – waiting for resources
+- **Stopped** – paused manually
+- **Zombie** – finished execution but not cleaned up
+
+---
+
+## systemd Explained
+
+### What is systemd?
+- systemd is the **init system and service manager**
+- Used in modern Linux distributions
+- Controls system startup and services
+
+### Why systemd Matters
+- Faster boot time
+- Centralized service management
+- Automatic service restarts
+- Better dependency handling
+- Unified logging
+
+### Common systemd Commands
+```bash
+systemctl status <service>
+systemctl start <service>
+systemctl stop <service>
+systemctl restart <service>
+Example:
+
+bash
+Copy code
+systemctl status nginx
+Basic Linux Fundamental Commands for DevOps
+1. top
+Displays real-time system performance
+
+Shows:
+
+Running, stopped, and zombie processes
+
+CPU and memory usage
+
+Load average
+
+Example:
+
+bash
+Copy code
+top
+2. df -h
 Displays disk space usage of all mounted file systems
 
-Shows total size, used space, available space
+Shows:
+
+Total size
+
+Used space
+
+Available space
 
 -h means human-readable (MB, GB)
 
 Example:
 
+bash
+Copy code
 df -h
-
-2) touch <filename.extension>
-
+3. touch <filename>
 Creates a new empty file
 
-If the file already exists, it updates the timestamp
-
-Commonly used to quickly create files
+Updates timestamp if file already exists
 
 Example:
 
+bash
+Copy code
 touch test.txt
-
-3) mkdir <dirname>
-
-Creates a new directory (folder)
-
-Used to organize files and folders
+4. mkdir <dirname>
+Creates a new directory
 
 Can create multiple directories at once
 
 Example:
 
+bash
+Copy code
 mkdir logs
-
-4) vim <filename>
-
-Opens a file in the Vim text editor
+5. vim <filename>
+Opens a file in the Vim editor
 
 Used to create, view, or edit files
 
-Common commands:
+Common Vim commands:
 
 i → insert mode
 
@@ -73,61 +165,55 @@ Esc → command mode
 
 Example:
 
+bash
+Copy code
 vim app.conf
-
-5) cat <filename>
-
+6. cat <filename>
 Displays file content in the terminal
 
-Used to view small files
-
-Can also combine multiple files
+Useful for small files
 
 Example:
 
+bash
+Copy code
 cat test.txt
-
-6) ps
-
-Shows currently running processes
+7. ps
+Shows running processes
 
 Helps monitor system activity
 
 Common options:
 
-ps -ef → all running processes
-
-ps aux → detailed process list
-
-Example:
-
+bash
+Copy code
 ps -ef
+ps aux
+Example:
 
-7) systemctl
+bash
+Copy code
+ps -ef
+8. systemctl
+Manages services using systemd
 
-Used to manage system services (systemd)
-
-Start, stop, restart, and check service status
-
-Common commands:
-
-systemctl status <service>
-
-systemctl start <service>
-
-systemctl stop <service>
-
-systemctl restart <service>
+Used to start, stop, restart, and check service status
 
 Example:
 
+bash
+Copy code
 systemctl status nginx
-
 Why Linux Is Important for DevOps
+Linux is the backbone of:
 
-Linux is the core operating system for most servers, cloud platforms, and containers.
+Servers
 
-Understanding Linux basics helps DevOps engineers to:
+Cloud platforms
+
+Containers (Docker, Kubernetes)
+
+Understanding Linux helps DevOps engineers to:
 
 Quickly identify and fix service failures
 
@@ -135,11 +221,26 @@ Monitor and manage running processes
 
 Troubleshoot CPU, memory, and disk issues
 
-Handle system services and logs with confidence
+Handle system services and logs confidently
 
 Reduce downtime during production incidents
 
-Strong Linux knowledge helps DevOps teams resolve issues faster and keep systems stable.
+✅ Key Takeaway
+Strong Linux knowledge enables faster troubleshooting, stable systems, and reliable DevOps operations.
+
+yaml
+Copy code
+
+---
+
+### Next step (optional)
+If you want, I can:
+- Add **interview questions** below each section  
+- Convert this into **90 Days of DevOps format**
+- Add **real production troubleshooting examples**
+- Help you write the **git commit message**
+
+Just tell me 👍
 
 
 
