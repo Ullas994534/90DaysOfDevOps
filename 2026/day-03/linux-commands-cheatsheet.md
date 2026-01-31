@@ -1,93 +1,96 @@
-Day 03 – Linux Commands Practice
+# Day 03 – Linux Commands Practice
 
-Task
+## 🎯 Goal
 
-Today’s goal is to build your Linux command confidence.
+Build strong confidence with essential Linux commands used daily by DevOps and Linux engineers.
 
-You will create a cheat sheet of commands focused on:
+This cheat sheet focuses on:
 
-Process management
-File system
-Networking troubleshooting
-This is the command toolkit you will reuse for years.
+* Process management
+* File system operations
+* Networking troubleshooting
 
-Guidelines
+These commands form a **core toolkit** you’ll reuse throughout your career.
 
-Follow these rules while creating your cheat sheet:
+---
 
+## 📌 File & Directory Management
 
-1) Include at least 20 commands with one‑line usage notes.
+| Command | Usage                                                |
+| ------- | ---------------------------------------------------- |
+| `cd`    | Change the current directory                         |
+| `ls`    | List files and directories                           |
+| `mkdir` | Create new directories                               |
+| `touch` | Create empty files                                   |
+| `cat`   | Display file contents                                |
+| `vim`   | Edit files using Vim editor                          |
+| `grep`  | Search text patterns inside files                    |
+| `sed`   | Stream editor for find/replace and text manipulation |
 
-Their are command command which we are using -> cd, ls, df -h, free -h, vim, cat, touch, mkdir, top, ping, ip addr, traceroute, ifconfig, curl, wget, ps, systemctl, grep, lsblk, uname -a, sed.
+---
 
-** File & Directory Management **
+## 💽 Disk & Storage
 
-cd – Change directory
+| Command | Usage                                          |
+| ------- | ---------------------------------------------- |
+| `df -h` | Show disk space usage in human‑readable format |
+| `lsblk` | List block devices (disks and partitions)      |
 
-ls – List files and directories
+---
 
-mkdir – Create directories
+## 🧠 Memory & System Information
 
-touch – Create empty files
+| Command    | Usage                                         |
+| ---------- | --------------------------------------------- |
+| `free -h`  | Display memory and swap usage                 |
+| `top`      | Real‑time CPU, memory, and process monitoring |
+| `uname -a` | Show kernel and system details                |
 
-cat – View file content
+---
 
-vim – Edit files
+## ⚙️ Process & Service Management
 
-grep – Search text in files
+| Command     | Usage                                         |
+| ----------- | --------------------------------------------- |
+| `ps`        | View currently running processes              |
+| `systemctl` | Manage systemd services (start, stop, status) |
 
-sed – Stream editor (find & replace, text manipulation)
+---
 
-** Disk & Storage **
+## 🌐 Networking Troubleshooting
 
-df -h – Disk space usage
+| Command      | Usage                                       |
+| ------------ | ------------------------------------------- |
+| `ip addr`    | Display IP addresses and network interfaces |
+| `ifconfig`   | Show network interface details (legacy)     |
+| `ping`       | Test network connectivity                   |
+| `traceroute` | Trace the network path to a destination     |
+| `curl`       | Make API calls or fetch URLs                |
+| `wget`       | Download files from the web                 |
 
-lsblk – List block devices (disks & partitions)
+---
 
-** Memory & System Info **
+## 📊 Performance & Monitoring
 
-free -h – Memory usage
+| Command | Usage                                     |
+| ------- | ----------------------------------------- |
+| `top`   | Monitor CPU, memory, and active processes |
 
-top – Real-time process & CPU usage
+---
 
-uname -a – Kernel and system information
+## 🚀 Why This Matters for DevOps
 
-** Process & Service Management **
+Most real production issues are solved **directly from the command line**.
 
-ps – Check running processes
+Strong Linux command knowledge allows you to:
 
-systemctl – Manage systemd services
+* Restore services faster
+* Minimize downtime and impact
+* Respond confidently during incidents
+* Build trust as a reliable DevOps engineer
 
-** Networking **
+💡 **Great command‑line skills turn pressure situations into controlled fixes.**
 
-ip addr – Show IP addresses
+---
 
-ifconfig – Network interface details (legacy)
-
-ping – Check network connectivity
-
-traceroute – Trace network path
-
-curl – API calls & URL requests
-
-wget – Download files from the web
-
-** Performance & Monitoring ** 
-
-top – Monitor CPU, memory, and processes
-
-** Why This Matters for DevOps **
-
-Most real production problems are fixed directly from the command line.
-
-When you can quickly check logs, processes, disk usage, and network issues, you can:
-
-Restore services faster
-
-Minimize downtime and impact
-
-Respond confidently during incidents
-
-Build trust as a reliable DevOps engineer
-
-Strong command-line skills turn pressure situations into controlled fixes.
+✅ This markdown file is ready to be committed to your GitHub repository as part of your DevOps learning journey.
