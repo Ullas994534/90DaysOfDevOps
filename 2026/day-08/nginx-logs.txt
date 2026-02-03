@@ -1,38 +1,39 @@
-# Day 08 – Cloud Server Setup: Nginx & Web Deployment
+# Day 08 – Cloud Server Setup: Docker, Nginx & Web Deployment
 
 ## 🎯 Task
-Today's goal is to deploy a real web server on the cloud and learn practical server management.
+Today's goal is to **deploy a real web server on the cloud** and learn practical server management.
 
-This task was completed with **real hands-on practice** on a live cloud server.
+This task was completed using **real hands-on practice** on a live cloud server.
 
 ---
 
-## 🚀 Objectives
+## 🚀 What I Did
 
-- Launch a cloud instance (AWS EC2)
-- Connect to the server using SSH
-- Install and run Nginx
-- Configure security groups for web access (Port 80)
-- Extract and save Nginx logs
-- Verify the webpage is accessible from the internet
+- Launched a cloud instance (AWS EC2)
+- Connected to the server via SSH
+- Installed and configured Nginx
+- Configured security group to allow HTTP traffic (Port 80)
+- Extracted and saved Nginx logs
+- Verified the webpage was accessible from the internet
 
 This is real DevOps work – exactly what is done in production environments.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 All screenshots captured during hands-on practice are stored in a single folder:
 
-📁 `2026/day-08/images/`  
+📁 `2026/day-08/images/`
+
 🔗 Images folder:  
 https://github.com/Ullas994534/90DaysOfDevOps/tree/master/2026/day-08/images
 
 ---
 
-## Prerequisites
+## 🛠 Prerequisites
 
-- AWS Free Tier account
+- AWS Free Tier account (or Utho)
 - Basic Linux knowledge (Days 1–7)
 - SSH client (Terminal / PuTTY)
 
@@ -40,11 +41,11 @@ https://github.com/Ullas994534/90DaysOfDevOps/tree/master/2026/day-08/images
 
 ## Part 1: Launch Cloud Instance & SSH Access
 
-### Step 1: Create Cloud Instance
+### Step 1: Create a Cloud Instance
 An AWS EC2 instance was launched using the AWS Management Console.
 
-**EC2 Instance Running**
-![EC2 Instance](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-08/images/6.png)
+📸 **EC2 Instance Running**
+![EC2 Instance](./images/ec2-instance.png)
 
 ---
 
@@ -52,110 +53,3 @@ An AWS EC2 instance was launched using the AWS Management Console.
 
 ```bash
 ssh -i my-key.pem ubuntu@<EC2-PUBLIC-IP>
-
-Part 2: Install Nginx Web Server
-Step 1: Update System
-sudo apt update
-
-Step 2: Install Nginx
-sudo apt install nginx -y
-
-Step 3: Start and Enable Nginx
-sudo systemctl start nginx
-sudo systemctl enable nginx
-
-
-Verify Nginx status:
-
-systemctl status nginx
-
-Part 3: Security Group Configuration
-
-Allowed inbound traffic on Port 80 (HTTP)
-
-Source: 0.0.0.0/0
-
-Test Web Access
-
-Open a browser and visit:
-
-http://<EC2-PUBLIC-IP>
-
-
-Nginx Welcome Page
-
-
-Part 4: Extract Nginx Logs
-Step 1: View Nginx Logs
-sudo cat /var/log/nginx/access.log
-
-Step 2: Save Logs to File
-sudo cp /var/log/nginx/access.log ~/nginx-logs.txt
-
-Step 3: Download Log File to Local Machine
-scp -i my-key.pem ubuntu@<EC2-PUBLIC-IP>:~/nginx-logs.txt .
-
-
-Nginx Log File Output
-
- Files Included
-
-day-08-cloud-deployment.md
-
-nginx-logs.txt
-
-Screenshots (stored in images/ folder)
-
-Commands Used
-
-ssh
-
-apt update
-
-apt install nginx
-
-systemctl start nginx
-
-systemctl enable nginx
-
-systemctl status nginx
-
-cat
-
-cp
-
-scp
-
-⚠️ Challenges Faced
-
-Web page was not accessible initially
-Solution: Updated the EC2 security group to allow inbound traffic on port 80.
-
-What I Learned
-
-How to deploy and manage a cloud server
-
-Secure remote access using SSH
-
-Installing and managing web services
-
-Importance of security groups and firewall rules
-
-Extracting and analyzing logs for troubleshooting
-
-Why This Matters for DevOps
-
-This exercise covers core DevOps responsibilities:
-
-Cloud infrastructure provisioning
-
-Remote server management
-
-Application deployment
-
-Log management and troubleshooting
-
-Security configuration
-
-These skills are critical for handling real production incidents.
-
