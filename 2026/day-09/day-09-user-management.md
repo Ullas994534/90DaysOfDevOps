@@ -51,7 +51,7 @@ groupadd project-team
 
 ### Commands Output:
 
-![images Link]
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/useradd.png)
 
 
 ## Group Assignments
