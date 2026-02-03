@@ -1,5 +1,16 @@
 # Day 08 – Cloud Server Setup: Docker, Nginx & Web Deployment
 
+90DaysOfDevOps/
+└── 2026/
+    └── day-08/
+        ├── day-08-cloud-deployment.md
+        ├── nginx-logs.txt
+        └── images/
+            ├── ssh-connection.png
+            ├── nginx-webpage.png
+            └── docker-nginx.png
+
+
 ## Task Overview
 
 The goal of Day 08 was to deploy a real web server on the cloud and practice practical server management tasks that are commonly performed in real-world DevOps and production environments.
