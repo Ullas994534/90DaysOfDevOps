@@ -1,0 +1,183 @@
+# Day 08 – Cloud Server Setup: Docker, Nginx & Web Deployment
+
+## Task Overview
+
+The goal of Day 08 was to deploy a real web server on the cloud and practice practical server management tasks that are commonly performed in real-world DevOps and production environments.
+
+This included launching a cloud instance, connecting via SSH, installing and configuring Nginx, managing security groups, extracting logs, and verifying public web access.
+
+---
+
+## Prerequisites
+
+* AWS account (Free Tier)
+* Basic understanding of Linux commands (Days 1–7)
+* SSH client (Linux/Mac terminal)
+
+---
+
+## Part 1: Launch Cloud Instance & SSH Access
+
+### Step 1: Create a Cloud Instance
+
+* Launched an **Ubuntu EC2 instance** using AWS Free Tier
+* Created and downloaded an SSH key pair (`.pem` file)
+* Configured security group to allow:
+
+  * SSH (port 22)
+  * HTTP (port 80)
+
+### Step 2: Connect via SSH
+
+```bash
+ssh -i your-key.pem ubuntu@<your-instance-public-ip>
+```
+
+📸 Screenshot: `./images/ssh-connection.png`
+
+---
+
+## Part 2: Install Docker & Nginx
+
+### Step 1: Update System
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+### Step 2: Install Docker
+
+```bash
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+### Step 3: Install Nginx
+
+```bash
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+### Verify Nginx is Running
+
+```bash
+systemctl status nginx
+```
+
+---
+
+## Part 3: Security Group Configuration
+
+* Verified inbound rules allow HTTP traffic on port 80
+* Tested web access from browser:
+
+```text
+http://<your-instance-public-ip>
+```
+
+✅ Nginx welcome page displayed successfully
+
+📸 Screenshot: `./images/nginx-webpage.png`
+
+---
+
+## Part 4: Extract Nginx Logs
+
+### Step 1: View Nginx Logs
+
+```bash
+sudo cat /var/log/nginx/access.log
+```
+
+### Step 2: Save Logs to a File
+
+```bash
+sudo cat /var/log/nginx/access.log > ~/nginx-logs.txt
+```
+
+### Step 3: Download Log File to Local Machine
+
+**For AWS:**
+
+```bash
+scp -i your-key.pem ubuntu@<your-instance-public-ip>:~/nginx-logs.txt .
+```
+
+📸 Screenshot: `./images/docker-nginx.png`
+
+---
+
+## Commands Used
+
+* `ssh`
+* `apt update && apt upgrade`
+* `apt install docker.io`
+* `apt install nginx`
+* `systemctl start | enable nginx`
+* `cat /var/log/nginx/access.log`
+* `scp`
+
+---
+
+## Challenges Faced
+
+* **Nginx page not accessible initially** – Fixed by allowing port 80 in the EC2 security group
+* **SCP permission issue** – Resolved by correcting key file path and permissions
+
+---
+
+## What I Learned
+
+* How to launch and configure a cloud server using AWS EC2
+* Securely connect to remote servers using SSH
+* Install and manage services like Docker and Nginx
+* Extract and transfer log files from a remote server
+* Verify public access to deployed applications
+
+---
+
+## Why This Matters for DevOps
+
+This exercise helped me understand:
+
+* Cloud infrastructure provisioning
+* Remote server management and security
+* Web server deployment in production-like environments
+* Log management and basic troubleshooting
+* Security group and firewall configuration
+
+These are core skills required for any DevOps engineer working in real production systems.
+
+---
+
+## Submission Details
+
+* Repository forked: **90DaysOfDevOps**
+* Folder: `2026/day-08/`
+* Files added:
+
+  * `day-08-cloud-deployment.md`
+  * `nginx-logs.txt`
+  * `images/ssh-connection.png`
+  * `images/nginx-webpage.png`
+  * `images/docker-nginx.png`
+
+---
+
+## Learn in Public 🚀
+
+I shared my Day 08 progress on LinkedIn by:
+
+* Posting about deploying my first cloud-based web server
+* Sharing the Nginx welcome page screenshot
+* Explaining a challenge I faced and how I solved it
+
+**Hashtags:**
+#90DaysOfDevOps #DevOpsKaJosh #TrainWithShubham
+
+---
+
+Happy Learning
