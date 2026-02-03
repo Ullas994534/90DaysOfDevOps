@@ -53,6 +53,18 @@ groupadd project-team
 
 ![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/useradd.png)
 
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2021-28-38.png)
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2021-42-14.png)
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2022-29-20.png)
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2022-34-24.png)
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2023-04-17.png)
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-09/images/Screenshot%20From%202026-02-03%2023-08-24.png)
+
 
 ## Group Assignments
 ```bash
