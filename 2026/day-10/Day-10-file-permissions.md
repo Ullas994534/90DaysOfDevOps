@@ -67,7 +67,7 @@ ls -lta
 
 ![Screenshot 5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-27-02.png)
 
-![Screenshot 6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-27-25.png)
+![Screenshot 6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-27-25.p)
 
 ---
 
