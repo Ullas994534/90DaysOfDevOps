@@ -51,12 +51,6 @@ ls -l
 chmod 755 projest/
 ls -lta
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
-
-![images-day10 Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
-
-![image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-06.png)
-
 ### Commands Output:
 
 ![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
