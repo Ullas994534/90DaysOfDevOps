@@ -53,17 +53,17 @@ ls -lta
 
 Output Screenshots: 
 
-![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/1.png)
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/1.png)
 
-![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/2.png)
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/2.png)
 
-![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/3.png)
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/3.png)
 
-![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/4.png)
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/4.png)
 
-![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/5.png)
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/5.png)
 
-![Image Link](http://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/6.png)
+![images Link](http://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/6.png)
 
 
 What I Learned
