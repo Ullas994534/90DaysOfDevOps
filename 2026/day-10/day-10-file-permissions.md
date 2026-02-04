@@ -53,18 +53,17 @@ ls -lta
 
 ### commands Output:
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/1.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-25-36.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/2.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-06.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/3.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-30.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/4.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-44.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/5.png)
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-27-02.png)
 
-![images Link](http://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/6.png)
-
+![Image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-27-25.png)
 
 What I Learned
 📝 File Creation & Viewing
