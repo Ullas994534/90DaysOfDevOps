@@ -61,7 +61,7 @@ sudo chown -R tokyo:vault-team access.code.txt
 sudo chown -R nairobi:vault-team bank-heist/escape-plan.txt
  ls -l bank-heist/
  
- output screenshot:
+ ### output screenshot:
  
 ![Command Output 1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-11/images/Screenshot%20From%202026-02-04%2023-42-10.png)
 
