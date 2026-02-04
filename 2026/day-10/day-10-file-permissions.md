@@ -51,13 +51,21 @@ ls -l
 chmod 755 projest/
 ls -lta
 
-### commands Output:
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-25-36.png)
+![images-day10 Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
+
+![image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-06.png)
+
+### Commands Output:
+
+![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
+
+![images-day10 Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/touch_command.png)
 
 ![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-06.png)
 
-![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-30.png)
+![image Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-30.png)
 
 ![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images-day10/Screenshot%20From%202026-02-04%2020-26-44.png)
 
