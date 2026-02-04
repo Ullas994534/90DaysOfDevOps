@@ -57,17 +57,17 @@ ls -lta
 
 ## 🖼️ Output Screenshots
 
-![Screenshot 1](images-day10/Screenshot%20From%202026-02-04%2020-25-36.png)
+![Screenshot 1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/touch_command.png)
 
-![Screenshot 2](images-day10/Screenshot%20From%202026-02-04%2020-26-06.png)
+![Screenshot 2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-26-06.png)
 
-![Screenshot 3](images-day10/Screenshot%20From%202026-02-04%2020-26-30.png)
+![Screenshot 3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-26-30.png)
 
-![Screenshot 4](images-day10/Screenshot%20From%202026-02-04%2020-26-44.png)
+![Screenshot 4](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-26-44.png)
 
-![Screenshot 5](images-day10/Screenshot%20From%202026-02-04%2020-27-02.png)
+![Screenshot 5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-27-02.png)
 
-![Screenshot 6](images-day10/Screenshot%20From%202026-02-04%2020-27-25.png)
+![Screenshot 6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/Screenshot%20From%202026-02-04%2020-27-25.png)
 
 ---
 
