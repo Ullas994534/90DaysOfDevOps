@@ -51,7 +51,7 @@ ls -l
 chmod 755 projest/
 ls -lta
 
-Output Screenshots: 
+### commands Output:
 
 ![images Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-10/images/1.png)
 
