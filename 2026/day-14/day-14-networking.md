@@ -50,12 +50,15 @@ Transport Layer
 Application Layer
 
 OSI Model – Diagram & Explanation
+
 ![OSI-model](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-14/images/Screenshot%20From%202026-02-07%2021-39-50.png)
 
 TCP/IP Model – Diagram & Explanation
+
 ![tcp/ip model](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-14/images/Screenshot%20From%202026-02-07%2021-41-45.png)
 
 OSI vs TCP/IP – Combined Diagram
+
 ![OSI model and tcp/ip model](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-14/images/Screenshot%20From%202026-02-07%2021-43-58.png)
 
 Hands-on Screenshots
