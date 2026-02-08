@@ -15,7 +15,7 @@ Know common ports and why they matter
 
 This is concept-focused — research, understand, and document in your own words.
 
-Challenge Tasks
+## Challenge Tasks
 1) What happens when you type google.com in a browser? (3–4 lines)
 
 When you type google.com, DNS resolves the domain name into an IP address. A TCP three-way handshake is established between your machine and Google’s server, followed by an HTTPS session setup. The HTTP request then travels through gateways, routers, switches, and ISPs to reach Google’s servers, which process the request and send back a response.
@@ -36,7 +36,7 @@ NS (Name Server): Defines the authoritative name servers for a domain.
 
 Using dig google.com shows the A records (IPv4 addresses) returned by Google along with their TTL (Time To Live). TTL defines how long DNS resolvers can cache the response before querying again.
 
-Task 2: IP Addressing
+## Task 2: IP Addressing
 1) What is an IPv4 address? How is it structured?
 
 IPv4 (Internet Protocol version 4) is used to uniquely identify devices on a network. It is a 32-bit address divided into four 8-bit octets, written in dotted-decimal format (e.g., 192.168.1.10), where each octet ranges from 0–255.
@@ -77,7 +77,7 @@ Extra context:
 
 101.0.62.104 → Public IP (from curl ifconfig.me)
 
-Task 3: CIDR & Subnetting
+## Task 3: CIDR & Subnetting
 1) What does /24 mean in 192.168.1.0/24?
 
 The /24 indicates that the first 24 bits are used for the network portion, leaving 8 bits for host addresses.
@@ -133,7 +133,7 @@ This involves DNS resolution, establishing a TCP connection to port 8080, and se
 
 Check network reachability (ping, traceroute), verify firewall/security group rules for port 3306, and ensure the database service is running and listening.
 
-Summary
+## Summary
 
 Learned how DNS resolves domain names to IPs and how IPv4 addressing works.
 
