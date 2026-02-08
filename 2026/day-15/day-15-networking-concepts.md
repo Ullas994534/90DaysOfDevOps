@@ -41,12 +41,18 @@ Task 2: IP Addressing
 
 IPv4 (Internet Protocol version 4) is used to uniquely identify devices on a network. It is a 32-bit address divided into four 8-bit octets, written in dotted-decimal format (e.g., 192.168.1.10), where each octet ranges from 0–255.
 
+structured diagram:
+
+![URL Link](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-15/images/Screenshot%20From%202026-02-08%2016-48-29.png)
+
 2) Public vs Private IP Addresses
+Ans:
 Private IP Address	Public IP Address
 Used inside local networks	Used on the internet
 Not routable publicly	Routable globally
 Assigned by router/DHCP	Assigned by ISP
 Example: 192.168.1.10	Example: 203.0.113.10
+
 3) Private IP Ranges
 
 10.0.0.0/8 → 10.0.0.0 – 10.255.255.255
@@ -60,6 +66,8 @@ Example: 192.168.1.10	Example: 203.0.113.10
 From the output:
 
 192.168.1.13 → Private IP (Wi-Fi interface)
+
+![ip address screenshot](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-15/images/Screenshot%20From%202026-02-08%2017-40-44.png)
 
 Extra context:
 
@@ -105,9 +113,16 @@ Port	Service
 3306	MySQL
 6379	Redis
 27017	MongoDB
+
 3) Listening Ports (ss -tulpn)
 
 Using ss -tulpn, active listening services can be mapped to their respective ports and processes.
+
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-15/images/Screenshot%20From%202026-02-08%2018-11-40.png)
+
+![screenshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-15/images/Screenshot%20From%202026-02-08%2018-11-51.png)
+
+![screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-15/images/Screenshot%20From%202026-02-08%2018-15-37.png)
 
 Putting It Together
 1) curl http://myapp.com:8080
