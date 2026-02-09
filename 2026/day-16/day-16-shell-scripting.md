@@ -20,7 +20,7 @@ echo "Hello Dosto!"
 chmod +x <filename> --> it will give the file to (+x) is the file to executable persmissions.
 ,/hello.sh --> it will execute the file and will get the output ## Hello Dosto!
 
-![screenshot1]()
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2012-41-45.png)
 
 if we remove the shebang then also script when run and using bash hello.sh.
 The shebang becomes critical when running scripts directly (./script.sh).
@@ -32,7 +32,7 @@ NAME="ULLAS BANAMAGI"
 ROLE="DevOps Engineer"
 echo "Hello, I am "$NAME" and I am a "$ROLE""
 
-![Screenshot2]()
+![Screenshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2012-59-44.png)
 
 ## Task 3: User Input with read
 
@@ -43,7 +43,7 @@ FAVOURITE_TOOL="DOCKER"
 
 echo "hello "$NAME", your favourite tool is "$FAVOURITE_TOOL""
 
-![Screenshot3]()
+![Screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2013-15-50.png)
 
 ## Task 4: If-Else Conditions
 
@@ -66,7 +66,7 @@ else
 
 fi	
 
-![screenshot4]()
+![screenshot4](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2013-52-58.png)
 
 ullas@ullas:~/shell-practice$ cat file_check.sh 
 #!/bin/bash
@@ -84,7 +84,7 @@ else
 echo "enter the file "$file" does not exists"
 fi
 
-![screenshot]()
+![screenshot5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2014-27-14.png)
 
 Task 5: Combine It All
 
@@ -102,9 +102,9 @@ echo "please enter a correct device"
 fi
 
 
-![screenshot4]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2014-44-38.png)
 
-![screenshot5]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-16/images/Screenshot%20From%202026-02-09%2014-46-11.png)
 
 ## what i learned is
 
