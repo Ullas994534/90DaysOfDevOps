@@ -155,3 +155,20 @@ move
 ![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-46-01.png)
 
 
+### what i learned:
+
+I built a structured Bash script using functions, argument validation, and set -euo pipefail for safer scripting.
+
+I performed log analysis using tools like grep, awk, sort, uniq, wc, and head.
+
+I counted ERROR, WARNING, and CRITICAL entries and extracted the top 5 frequent error messages.
+
+I implemented file validation and handled missing files gracefully.
+
+I automated report generation with timestamps and dynamic file naming.
+
+I organized output by archiving generated reports into a separate backup directory.
+
+### Conclusion:
+
+This challenge helped me strengthen my Bash scripting skills by combining log analysis, automation, and file management into a real-world system administration task. I learned how to process logs efficiently, generate structured reports, and organize backups, making the script practical and production-ready.
