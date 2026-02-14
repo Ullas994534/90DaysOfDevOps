@@ -35,7 +35,7 @@ check(){
 
 usage
 	
-![screenshot1]()
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-52-14.png)
 
 ## 2) Task 2: Error Count
 
