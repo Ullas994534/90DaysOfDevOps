@@ -66,7 +66,7 @@ report(){
 	top_5 >> $report
 	critical_events >> $report
 	
-![screenshot5(https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-24-28.png)
+![screenshot5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-24-28.png)
 
 ## Task 6: Archive Log
 
