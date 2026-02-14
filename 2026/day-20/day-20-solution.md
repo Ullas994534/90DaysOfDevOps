@@ -76,11 +76,11 @@ move(){
 	echo -e "\nCreated report file $report and moved it to archive folder."
 }
 
-![screenshot6]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-37-17.png)
 
-![screenshot7]()
+![screenshot7](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-38-11.png)
 
-![screenshot8]()
+![screenshot8](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-38-50.png)
 
 ### log_analyzer.sh
 
@@ -152,4 +152,7 @@ total_lines
 report
 move
 
-![screenshot6]()
+![screenshot9]()
+
+
+![screenshot10]()
