@@ -152,7 +152,6 @@ total_lines
 report
 move
 
-![screenshot9]()
+![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-46-01.png)
 
 
-![screenshot10]()
