@@ -41,19 +41,19 @@ usage
 
  grep -ic "ERROR" BGL_2k.log
  
- ![screnshot2]()
+ ![screnshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2018-56-20.png)
  
 ## Task 3: Critical Events
 
 grep -n "critical" BGL_2k.log | head -5
 
-![screenshot3]()
+![screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2018-57-46.png)
 
 ## Task 4: Top 5 Errors
 
 grep "ERROR" BGL_2k.log | awk '{$1=$2=$3=$NF=""; print}' | sort | uniq -c | sort -nr | head -5
 
-![screenshot4]()
+![screenshot4](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2018-58-31.png)
 
 ## Task 5: Generate Report
 
@@ -66,7 +66,7 @@ report(){
 	top_5 >> $report
 	critical_events >> $report
 	
-![screenshot5()
+![screenshot5(https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-20/images/Screenshot%20from%202026-02-14%2020-24-28.png)
 
 ## Task 6: Archive Log
 
@@ -77,6 +77,10 @@ move(){
 }
 
 ![screenshot6]()
+
+![screenshot7]()
+
+![screenshot8]()
 
 ### log_analyzer.sh
 
