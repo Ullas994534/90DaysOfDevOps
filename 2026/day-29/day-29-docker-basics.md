@@ -7,7 +7,7 @@ Ans: Docker is an OS‑level virtualization (or containerization) platform, whic
 
 Ans: 
 
-![screenshot1]()
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2009-32-46.png)
 
 Which to Use?
 Use Containers for microservices, CI/CD, or when you need to deploy many instances of an application quickly.
@@ -19,7 +19,7 @@ Ans:
 
 1) daemon: A daemon is a computer program that runs as a background process, operating independently of direct user control to handle tasks like system requests, network connections, or scheduling.
 
-![screenshot2]()
+![screenshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2009-37-53.png)
 
 2) client: The Docker client (CLI) sends a REST API request to the Docker daemon.
 
@@ -34,7 +34,7 @@ Ans:
             
 Draw or describe the Docker architecture in your own words.
 
-![screenshot3]()
+![screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2011-33-42.png)
 
 ##Task 2: Install Docker
 
@@ -48,27 +48,27 @@ Run the hello-world container
 
 Read the output carefully — it explains what just happened
 
-![screenshot4]()
+![screenshot4](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2011-50-08.png)
 
 Task 3: Run Real Containers
 
 Run an Nginx container and access it in your browser
 
-![screenshot8]()
+![screenshot8](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2014-31-12.png)
 
 Run an Ubuntu container in interactive mode — explore it like a mini Linux machine
 
-![screenshot5]()
+![screenshot5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2013-41-09.png)
 
-![screenshot6]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2013-41-27.png)
 
 List all running containers
 
-![screenshot7]()
+![screenshot7](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2013-41-48.png)
 
 ## Stop and remove a container
 
-![screenshot9]()
+![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2014-38-38.png)
 
 ### Task 4: Explore
 
@@ -81,9 +81,15 @@ Give a container a custom name
 
 Map a port from the container to your host
 
-![screenshot10]()
+![screenshot10](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2014-51-54.png)
+
+![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2014-52-19.png)
 
 Deployed on nginx in container locally
 
-![screenshot11]()
+![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-29/images/Screenshot%20from%202026-03-03%2015-23-02.png)
+
+
+
+
 
