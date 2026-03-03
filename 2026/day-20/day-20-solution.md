@@ -172,3 +172,4 @@ I organized output by archiving generated reports into a separate backup directo
 ### Conclusion:
 
 This challenge helped me strengthen my shall scripting skills by combining log analysis, automation, and file management into a real-world system administration task. I learned how to process logs efficiently, generate structured reports, and organize backups, making the script practical and production-ready.
+
