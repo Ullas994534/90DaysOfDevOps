@@ -11,19 +11,19 @@
 3. Build the image and tag it my-ubuntu:v1
 4. Run a container from your image
 
-![screenshot1]()
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2010-40-10.png)
 
-![screenshot2]()
+![screenshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2010-43-48.png)
 
-![screenshot3]()
+![screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2010-50-53.png)
 
 ## Task 2: Dockerfile Instructions
 
-![screenshot5]()
+![screenshot5](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-02-03.png)
 
-![screenshot4]()
+![screenshot4](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-01-35.png)
 
-![screenshot6]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-02-03.png)
 
 ## Observation:
 Each instruction creates a new image layer. FROM → Base OS RUN → Executes during build WORKDIR → Set working directory COPY → Copy from host EXPOSE → Documentation only CMD → Default runtime command
@@ -35,7 +35,7 @@ Task 3: CMD vs ENTRYPOINT
 
 Part 1: Using CMD
 
-![screenshot7]()
+![screenshot7](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-11-57.png)
 
 Create Dockerfile (CMD Example)
 dockerfile
@@ -66,9 +66,9 @@ The custom command replaces the CMD instruction.
 
 2. Create an image with ENTRYPOINT ["echo"] — run it, then run it with additional arguments. What happens?
 
-![screenshot8]()
+![screenshot8](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-27-10.png)
 
-![screenshot9]()
+![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-35-33.png)
 
 ## Create Dockerfile (ENTRYPOINT Example)
 FROM alpine
@@ -95,7 +95,7 @@ Ullas Banamagi
 Observation
 Arguments provided during docker run are appended to the ENTRYPOINT command instead of replacing it.
 
-![screenshot10]()
+![screenshot10](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-37-01.png)
 
 ### Task 4: Build a Simple Web App Image
 
@@ -116,14 +116,14 @@ docker build -t website-page:v1 .
 
 docker run -d -p 8081:80 --name mysite website:v1
 
-![screenshot11]()
+![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-40-40.png)
 
-![screenshot12]()
+![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-48-56.png)
 
 
 ## 5: Access the Website
 
-![screenshot13]()
+![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-49-11.png)
 
 ### Task 5: .dockerignore
 
@@ -133,7 +133,7 @@ Inside the project folder, I created a file named .dockerignore .
 
 vim .dockerignore
 
-![screenshot14]()
+![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-54-38.png)
 
 2. Add Ignore Rules
 
@@ -170,12 +170,12 @@ ls -la /usr/share/nginx/html
 
 The ignored folders and files (node_modules, .git, .md, .env) were not present inside the container.
 
-![screenshot15]()
+![screenshot15](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-55-50.png)
 
 
 Learning Outcome
 
-![screenshot16]()
+![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-24-40.png)
 
 6. Task 6: Build Optimization
 
@@ -183,7 +183,7 @@ Learning Outcome
 2. Reorder your Dockerfile so that frequently changing lines come last
 3. Write in your notes: Why does layer order matter for build speed?
 
-![screenshot17]()
+![screenshot17](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-36-17.png)
 
 1. Create Initial Dockerfile
 I created a Dockerfile with the following content:
@@ -231,11 +231,19 @@ COPY index.html .
 CMD ["nginx", "-g", "daemon off;"]
 
 
-![screenshot18]()
+![screenshot18](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-44-03.png)
 
-![screenshot19]()
+![screenshot19](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-00-23.png)
 
-![screenshot20]()
+![screenshot20](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-01-08.png)
+
+![screenshot21](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-11-18.png)
+
+![screenshot22](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-16-18.png)
+
+![screenshot23](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-16-31.png)
+
+![screenshot24](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-17-35.png)
 
 Why Layer Order Matters in Docker
 
