@@ -121,9 +121,13 @@ docker run -d -p 8081:80 --name mysite website:v1
 ![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-48-56.png)
 
 
+![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-49-11.png)
+
+
 ## 5: Access the Website
 
-![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2011-49-11.png)
+
+![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-24-40.png)
 
 ### Task 5: .dockerignore
 
@@ -175,7 +179,7 @@ The ignored folders and files (node_modules, .git, .md, .env) were not present i
 
 Learning Outcome
 
-![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-24-40.png)
+
 
 6. Task 6: Build Optimization
 
@@ -184,6 +188,13 @@ Learning Outcome
 3. Write in your notes: Why does layer order matter for build speed?
 
 ![screenshot17](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-36-17.png)
+
+![screenshot18](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-44-03.png)
+
+![screenshot19](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-00-23.png)
+
+![screenshot20](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-01-08.png)
+
 
 1. Create Initial Dockerfile
 I created a Dockerfile with the following content:
@@ -231,11 +242,6 @@ COPY index.html .
 CMD ["nginx", "-g", "daemon off;"]
 
 
-![screenshot18](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2013-44-03.png)
-
-![screenshot19](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-00-23.png)
-
-![screenshot20](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-01-08.png)
 
 ![screenshot21](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-31/images-day31/Screenshot%20from%202026-03-04%2014-11-18.png)
 
