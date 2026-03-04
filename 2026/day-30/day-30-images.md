@@ -106,34 +106,36 @@ Run a single command inside the container without entering it
 
 ![screenshot8](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-19-25.png)
 
-Inspect the container — find its IP address, port mappings, and mounts.
-
 ![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-26-30.png)
+
+Inspect the container — find its IP address, port mappings, and mounts.
 
 ![screenshot10](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-28-24.png)
 
 ![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-29-18.png)
 
+![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-30-08.png)
+
 ## Task 5: Cleanup
 
 1. Stop all running containers in one command
 
-![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-30-08.png)
+![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-32-05.png)
 
 2. Remove all stopped containers in one command
 
-![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-32-05.png)
+![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-33-14.png)
 
 3. Using prune
 
-![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-33-14.png)
+![screenshot15](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-34-11.png)
 
 4. Remove unused images
 
-![screenshot15](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-34-11.png)
+![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-35-40.png)
+
 
 5. Check how much disk space Docker is using
 
-![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-35-40.png)
 
 ![screenshot17](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-36-45.png)
