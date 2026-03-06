@@ -8,19 +8,19 @@
 
 docker run -d --name mysql-testing -e MYSQL ROOT_PASSWORD = test@123 mysql
 
-![screenshot1]()
+![screenshot1](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-26-32.png)
 
-![screenshot2]()
+![screenshot2](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-26-58.png)
 
 2. Create some data inside it (a table, a few rows — anything)
 
-![screenshot3]()
+![screenshot3](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-27-17.png)
 
-![screenshot4]()
+![screenshot4](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-31-28.png)
 
 3. Stop and remove the container
 
-![screenshot5]()
+![screenshot5](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-36-02.png)
 
 4. Run a new one — is your data still there?
 
@@ -37,25 +37,25 @@ Step 1: Create Named Volume
 
 2. Run the same database container, but this time attach the volume to it
 
-![screenshot6]()
+![screenshot6](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-55-47.png)
 
-![screenshot7]()
+![screenshot7](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-56-00.png)
 
 3. Add some data, stop and remove the container.
 
-![screenshot8]()
+![screenshot8](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2018-59-30.png)
 
 4. Run a brand new container with the same volume
 
-![screenshot9]()
+![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-15-58.png)
 
 ![screenshot10]()
 
 Verify: docker volume ls, docker volume inspect
 
-![screenshot11]()
+![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-16-10.png)
 
-![screenshot12]()
+![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-17-50.png)
 
 
 ## Task 3: Bind Mounts
@@ -68,11 +68,11 @@ docker run -d -v ~/docker-task3-practice/data:/usr/share/nginx/html/ -p 81:80 ng
 
 Run an Nginx container and bind mount your folder to the Nginx web directory
 
-![screenshot14]()
+![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-05-19.png)
 
 Access the page in your browser
 
-![screenshot13]()
+![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-18-51.png)
 
 Named Volume : They are created and managed by docker. Stored in docker's internal storage directory. At initialization if volume is empty it copies container's data. More secure.
 
@@ -80,11 +80,11 @@ Bind Mount : They are created by users. Can be created anywhere in the file syst
 
 ## Task 4: Docker Networking Basics
 
-![screenshot16]()
+![screenshot16](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-06-13.png)
 
 Inspect the default bridge network
 
-![screenshot17]()
+![screenshot17](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-07-39.png)
 
 
 Run two containers on the default bridge — can they ping each other by name?
@@ -92,7 +92,7 @@ Run two containers on the default bridge — can they ping each other by name?
 Run two containers on the default bridge — can they ping each other by IP?
 
 
-![screenshot18]()
+![screenshot18](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-09-45.png)
 
 On default bridge containers can't PING each other by NAME, But they can PING each other by IP.
 
@@ -101,7 +101,7 @@ On default bridge containers can't PING each other by NAME, But they can PING ea
 
 1. Create a custom bridge network called my-app-net
 
-![screenshot19]()
+![screenshot19](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-34-48.png)
 
 2. Run two containers on my-app-net
 
@@ -109,13 +109,16 @@ docker run -itd --name ubuntu1 --network my-app-net ubuntu
 
 docker run -itd --name ubuntu2 --network my-app-net ubuntu
 
-![screenshot19]()
+![screenshot19](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-38-34.png)
+
+
+![screenshot](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-42-55.png)
 
 3. Can they ping each other by name now? YES
 
 docker exec -it ubuntu1 bash
 
-![screenshot20]()
+![screenshot20](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-51-45.png)
 
 Write in your notes: Why does custom networking allow name-based communication but the default bridge doesn't?
 
@@ -129,13 +132,17 @@ Default bridge does not enable built-in DNS, so it can only use IP address to pi
 3. Run an app container (use any image) on the same network
 4. Verify the app container can reach the database by container name
 
-![screenshot21]()
+![screenshot21](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-21-15.png)
 
-![screenshot22]()
+![screenshot22](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-21-29.png)
 
-![screenshot23]()
+![screenshot23](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-21-39.png)
 
-![screenshot24]()
+![screenshot24](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-21-55.png)
 
-![screenshot25]()
+![screenshot25](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-22-10.png)
 
+![screenshot26](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-22-35.png)
+
+
+![screenshot27](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-06%2009-22-48.png)
