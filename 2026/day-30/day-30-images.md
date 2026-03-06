@@ -137,5 +137,4 @@ Inspect the container — find its IP address, port mappings, and mounts.
 
 5. Check how much disk space Docker is using
 
-
 ![screenshot17](https://github.com/Ullas994534/90DaysOfDevOps/blob/master/2026/day-30/images/Screenshot%20from%202026-03-04%2009-36-45.png)

@@ -197,6 +197,7 @@ Learning Outcome
 
 
 1. Create Initial Dockerfile
+
 I created a Dockerfile with the following content:
 
 dockerfile
