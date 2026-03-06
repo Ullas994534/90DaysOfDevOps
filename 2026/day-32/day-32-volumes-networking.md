@@ -49,13 +49,13 @@ Step 1: Create Named Volume
 
 ![screenshot9](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-15-58.png)
 
-![screenshot10]()
+![screenshot10](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-16-10.png)
 
 Verify: docker volume ls, docker volume inspect
 
-![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-16-10.png)
+![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-17-50.png)
 
-![screenshot12](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-17-50.png)
+![screenshot12](
 
 
 ## Task 3: Bind Mounts
@@ -68,11 +68,13 @@ docker run -d -v ~/docker-task3-practice/data:/usr/share/nginx/html/ -p 81:80 ng
 
 Run an Nginx container and bind mount your folder to the Nginx web directory
 
-![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-05-19.png)
+![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-18-51.png)
 
 Access the page in your browser
 
-![screenshot13](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-18-51.png)
+
+![screenshot14](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2021-05-19.png)
+
 
 Named Volume : They are created and managed by docker. Stored in docker's internal storage directory. At initialization if volume is empty it copies container's data. More secure.
 
