@@ -55,7 +55,6 @@ Verify: docker volume ls, docker volume inspect
 
 ![screenshot11](https://github.com/Ullas994534/90DaysOfDevOps/blob/main/2026/day-32/images-day32/Screenshot%20from%202026-03-05%2019-17-50.png)
 
-![screenshot12](
 
 
 ## Task 3: Bind Mounts
@@ -64,7 +63,6 @@ Create a folder on your host machine with an index.html file
 
 docker run -d -v ~/docker-task3-practice/data:/usr/share/nginx/html/ -p 81:80 nginx
 
-![screenshot15]()
 
 Run an Nginx container and bind mount your folder to the Nginx web directory
 
